@@ -1,5 +1,5 @@
 import * as React$1 from 'react';
-import React__default, { CSSProperties as CSSProperties$1, ElementType, ComponentPropsWithoutRef, ComponentPropsWithRef, MouseEventHandler, FC, ReactNode, HTMLAttributes, DetailedHTMLProps, TextareaHTMLAttributes, FocusEvent, InputHTMLAttributes, ChangeEventHandler, ComponentProps, ReactElement, RefObject, MutableRefObject, ButtonHTMLAttributes } from 'react';
+import React__default, { CSSProperties as CSSProperties$1, ElementType, ComponentPropsWithoutRef, ComponentPropsWithRef, MouseEventHandler, FC, ReactNode, HTMLAttributes, DetailedHTMLProps, TextareaHTMLAttributes, FocusEvent, InputHTMLAttributes, ChangeEventHandler, ComponentProps, ReactElement, MutableRefObject, ButtonHTMLAttributes } from 'react';
 import * as styled_components from 'styled-components';
 import { ThemedStyledProps, DefaultTheme, CSSProperties } from 'styled-components';
 import * as next_image from 'next/image';
@@ -92,9 +92,9 @@ declare const oakColorFilterTokens: {
     lavender: string;
 };
 type OakColorFilterToken = keyof typeof oakColorFilterTokens;
-declare const oakUiRoleTokensConst: readonly ["text-primary", "text-subdued", "text-error", "text-disabled", "text-link-active", "text-link-hover", "text-link-visited", "text-link-pressed", "text-inverted", "text-success", "text-promo", "bg-primary", "bg-inverted", "bg-neutral", "bg-neutral-stronger", "bg-btn-primary", "bg-btn-primary-hover", "bg-btn-primary-disabled", "bg-btn-secondary", "bg-btn-secondary-hover", "bg-btn-secondary-disabled", "bg-decorative1-main", "bg-decorative1-subdued", "bg-decorative1-very-subdued", "bg-decorative2-main", "bg-decorative2-subdued", "bg-decorative2-very-subdued", "bg-decorative3-main", "bg-decorative3-subdued", "bg-decorative3-very-subdued", "bg-decorative4-main", "bg-decorative4-subdued", "bg-decorative4-very-subdued", "bg-decorative5-main", "bg-decorative5-subdued", "bg-decorative5-very-subdued", "bg-decorative6-main", "bg-decorative6-subdued", "bg-decorative6-very-subdued", "bg-interactive-element1", "bg-interactive-element2", "bg-correct", "bg-incorrect", "bg-success", "bg-error", "icon-inverted", "icon-disabled", "icon-brand", "icon-success", "icon-error", "icon-warning", "icon-primary", "icon-subdued", "icon-link-active", "icon-link-hover", "icon-link-pressed", "icon-link-visited", "icon-decorative1", "icon-decorative2", "icon-decorative3", "icon-decorative4", "icon-decorative5", "icon-decorative6", "icon-promo", "border-primary", "border-inverted", "border-neutral", "border-neutral-lighter", "border-neutral-stronger", "border-brand", "border-success", "border-error", "border-warning", "border-decorative1", "border-decorative1-stronger", "border-decorative2", "border-decorative2-stronger", "border-decorative3", "border-decorative3-stronger", "border-decorative4", "border-decorative4-stronger", "border-decorative5", "border-decorative5-stronger", "border-decorative6", "border-decorative6-stronger", "transparent", "blackSemiTransparent", "code-blue", "code-green", "code-grey", "code-pink"];
+declare const oakUiRoleTokensConst: readonly ["text-primary", "text-subdued", "text-error", "text-disabled", "text-link-active", "text-link-hover", "text-link-visited", "text-link-pressed", "text-inverted", "text-success", "text-promo", "bg-primary", "bg-inverted", "bg-inverted-semi-transparent", "bg-neutral", "bg-neutral-stronger", "bg-btn-primary", "bg-btn-primary-hover", "bg-btn-primary-disabled", "bg-btn-secondary", "bg-btn-secondary-hover", "bg-btn-secondary-disabled", "bg-decorative1-main", "bg-decorative1-subdued", "bg-decorative1-very-subdued", "bg-decorative2-main", "bg-decorative2-subdued", "bg-decorative2-very-subdued", "bg-decorative3-main", "bg-decorative3-subdued", "bg-decorative3-very-subdued", "bg-decorative4-main", "bg-decorative4-subdued", "bg-decorative4-very-subdued", "bg-decorative5-main", "bg-decorative5-subdued", "bg-decorative5-very-subdued", "bg-decorative6-main", "bg-decorative6-subdued", "bg-decorative6-very-subdued", "bg-interactive-element1", "bg-interactive-element2", "bg-correct", "bg-incorrect", "bg-success", "bg-error", "icon-inverted", "icon-disabled", "icon-brand", "icon-success", "icon-error", "icon-warning", "icon-primary", "icon-subdued", "icon-link-active", "icon-link-hover", "icon-link-pressed", "icon-link-visited", "icon-decorative1", "icon-decorative2", "icon-decorative3", "icon-decorative4", "icon-decorative5", "icon-decorative6", "icon-promo", "border-primary", "border-inverted", "border-neutral", "border-neutral-lighter", "border-neutral-stronger", "border-brand", "border-success", "border-error", "border-warning", "border-decorative1", "border-decorative1-stronger", "border-decorative2", "border-decorative2-stronger", "border-decorative3", "border-decorative3-stronger", "border-decorative4", "border-decorative4-stronger", "border-decorative5", "border-decorative5-stronger", "border-decorative6", "border-decorative6-stronger", "transparent", "code-blue", "code-green", "code-grey", "code-pink"];
 type OakUiRoleToken = (typeof oakUiRoleTokensConst)[number];
-declare const oakUiRoleTokens: ("transparent" | "text-primary" | "text-subdued" | "text-error" | "text-disabled" | "text-link-active" | "text-link-hover" | "text-link-visited" | "text-link-pressed" | "text-inverted" | "text-success" | "text-promo" | "bg-primary" | "bg-inverted" | "bg-neutral" | "bg-neutral-stronger" | "bg-btn-primary" | "bg-btn-primary-hover" | "bg-btn-primary-disabled" | "bg-btn-secondary" | "bg-btn-secondary-hover" | "bg-btn-secondary-disabled" | "bg-decorative1-main" | "bg-decorative1-subdued" | "bg-decorative1-very-subdued" | "bg-decorative2-main" | "bg-decorative2-subdued" | "bg-decorative2-very-subdued" | "bg-decorative3-main" | "bg-decorative3-subdued" | "bg-decorative3-very-subdued" | "bg-decorative4-main" | "bg-decorative4-subdued" | "bg-decorative4-very-subdued" | "bg-decorative5-main" | "bg-decorative5-subdued" | "bg-decorative5-very-subdued" | "bg-decorative6-main" | "bg-decorative6-subdued" | "bg-decorative6-very-subdued" | "bg-interactive-element1" | "bg-interactive-element2" | "bg-correct" | "bg-incorrect" | "bg-success" | "bg-error" | "icon-inverted" | "icon-disabled" | "icon-brand" | "icon-success" | "icon-error" | "icon-warning" | "icon-primary" | "icon-subdued" | "icon-link-active" | "icon-link-hover" | "icon-link-pressed" | "icon-link-visited" | "icon-decorative1" | "icon-decorative2" | "icon-decorative3" | "icon-decorative4" | "icon-decorative5" | "icon-decorative6" | "icon-promo" | "border-primary" | "border-inverted" | "border-neutral" | "border-neutral-lighter" | "border-neutral-stronger" | "border-brand" | "border-success" | "border-error" | "border-warning" | "border-decorative1" | "border-decorative1-stronger" | "border-decorative2" | "border-decorative2-stronger" | "border-decorative3" | "border-decorative3-stronger" | "border-decorative4" | "border-decorative4-stronger" | "border-decorative5" | "border-decorative5-stronger" | "border-decorative6" | "border-decorative6-stronger" | "blackSemiTransparent" | "code-blue" | "code-green" | "code-grey" | "code-pink")[];
+declare const oakUiRoleTokens: ("transparent" | "text-primary" | "text-subdued" | "text-error" | "text-disabled" | "text-link-active" | "text-link-hover" | "text-link-visited" | "text-link-pressed" | "text-inverted" | "text-success" | "text-promo" | "bg-primary" | "bg-inverted" | "bg-inverted-semi-transparent" | "bg-neutral" | "bg-neutral-stronger" | "bg-btn-primary" | "bg-btn-primary-hover" | "bg-btn-primary-disabled" | "bg-btn-secondary" | "bg-btn-secondary-hover" | "bg-btn-secondary-disabled" | "bg-decorative1-main" | "bg-decorative1-subdued" | "bg-decorative1-very-subdued" | "bg-decorative2-main" | "bg-decorative2-subdued" | "bg-decorative2-very-subdued" | "bg-decorative3-main" | "bg-decorative3-subdued" | "bg-decorative3-very-subdued" | "bg-decorative4-main" | "bg-decorative4-subdued" | "bg-decorative4-very-subdued" | "bg-decorative5-main" | "bg-decorative5-subdued" | "bg-decorative5-very-subdued" | "bg-decorative6-main" | "bg-decorative6-subdued" | "bg-decorative6-very-subdued" | "bg-interactive-element1" | "bg-interactive-element2" | "bg-correct" | "bg-incorrect" | "bg-success" | "bg-error" | "icon-inverted" | "icon-disabled" | "icon-brand" | "icon-success" | "icon-error" | "icon-warning" | "icon-primary" | "icon-subdued" | "icon-link-active" | "icon-link-hover" | "icon-link-pressed" | "icon-link-visited" | "icon-decorative1" | "icon-decorative2" | "icon-decorative3" | "icon-decorative4" | "icon-decorative5" | "icon-decorative6" | "icon-promo" | "border-primary" | "border-inverted" | "border-neutral" | "border-neutral-lighter" | "border-neutral-stronger" | "border-brand" | "border-success" | "border-error" | "border-warning" | "border-decorative1" | "border-decorative1-stronger" | "border-decorative2" | "border-decorative2-stronger" | "border-decorative3" | "border-decorative3-stronger" | "border-decorative4" | "border-decorative4-stronger" | "border-decorative5" | "border-decorative5-stronger" | "border-decorative6" | "border-decorative6-stronger" | "code-blue" | "code-green" | "code-grey" | "code-pink")[];
 type UiRoleMap = Record<OakUiRoleToken, OakColorToken | null | undefined>;
 
 type OakTheme = {
@@ -281,7 +281,7 @@ type BorderStyleProps = {
     /**
      * Apply a border color to all sides of the element
      *
-     * Accepts a color token or a responsive array of color tokens.
+     * Accepts a UI role token or a responsive array of UI role tokens.
      */
     $borderColor?: BorderColorProps;
     $borderRadius?: BorderRadiusProps;
@@ -331,13 +331,13 @@ type ColorStyleProps = {
     /**
      * Sets the `color` of the element.
      *
-     * Accepts a color token or a responsive array of color tokens.
+     * Accepts a UI role token or a responsive array of UI role tokens.
      */
     $color?: ColorToken;
     /**
      * Sets the `background-color` of the element.
      *
-     * Accepts a color token or a responsive array of color tokens.
+     * Accepts a UI role token or a responsive array of UI role tokens.
      */
     $background?: ColorToken;
 };
@@ -369,6 +369,7 @@ declare const oakAllSpacingTokens: {
     "spacing-640": number;
     "spacing-960": number;
     "spacing-1280": number;
+    "spacing-1360": number;
 };
 type OakAllSpacingToken = keyof typeof oakAllSpacingTokens;
 declare const oakInnerPaddingTokens: {
@@ -402,7 +403,22 @@ declare const oakSpaceBetweenTokens: {
     "spacing-80": string;
 };
 type OakSpaceBetweenToken = keyof typeof oakSpaceBetweenTokens;
-type AdditionalSpacingTypes = "100%" | "-50%" | "50%" | 0 | "100vh" | "100vw" | "auto" | "fit-content" | "max-content" | "min-content" | "inherit" | "initial" | "unset";
+declare const additionalSpacingTokens: {
+    "100%": string;
+    "-50%": string;
+    "50%": string;
+    0: string;
+    "100vh": string;
+    "100vw": string;
+    auto: string;
+    "fit-content": string;
+    "max-content": string;
+    "min-content": string;
+    inherit: string;
+    initial: string;
+    unset: string;
+};
+type AdditionalSpacingTypes = keyof typeof additionalSpacingTokens;
 type OakCombinedSpacingToken = OakAllSpacingToken | OakInnerPaddingToken | OakSpaceBetweenToken | AdditionalSpacingTypes;
 
 type PaddingValues = ResponsiveValues<OakInnerPaddingToken | null | undefined>;
@@ -630,16 +646,22 @@ declare const oakDarkTheme: OakTheme;
 declare const parseBorder: (value?: OakBorderWidthToken | null) => string | undefined;
 
 /**
- * - takes any of color token
- * - if an OakColor derives and returns the corresponding css value
- * - if an OakUiRole derives returns a function that takes the current theme and returns the corresponding css value
+ * - takes OakColorToken, OakUiRoleToken, null or undefined
+ * - if OakColorToken is passed, returns corresponding css value
+ * - if OakUiRoleToken is passed, returns a function that takes the current theme and returns the corresponding css value
+ * - if null or undefined is passed, returns undefined
  */
 declare function parseColor(): undefined;
 declare function parseColor(value?: OakColorToken | OakUiRoleToken | null): (props: PropsWithTheme) => string;
-declare function parseColor(value?: OakColorToken | OakUiRoleToken | null): ((props: PropsWithTheme) => string) | undefined;
+declare function parseColor(value?: OakUiRoleToken | null): ((props: PropsWithTheme) => string) | undefined;
 
-declare function parseColorFilter(value?: OakColorToken | OakUiRoleToken | null): (props: PropsWithTheme) => string;
-declare function parseColorFilter(value?: OakColorToken | OakUiRoleToken | null): ((props: PropsWithTheme) => string) | undefined;
+/**
+ * - takes any of OakUiRoleToken or null/undefined
+ * - returns a function that takes the current theme and returns the corresponding css filter style for that token
+ * - returns undefined if no filter is found for the token
+ */
+declare function parseColorFilter(value?: OakUiRoleToken | null): (props: PropsWithTheme) => string;
+declare function parseColorFilter(value?: OakUiRoleToken | null): ((props: PropsWithTheme) => string) | undefined;
 
 declare const parseDropShadow: (variant?: OakDropShadowToken | null) => string | undefined;
 
@@ -837,7 +859,7 @@ declare const icons: {
 };
 type IconName = keyof typeof icons;
 
-type ColorFilterToken = ResponsiveValues<OakColorToken | OakUiRoleToken | null>;
+type ColorFilterToken = ResponsiveValues<OakUiRoleToken | null>;
 type ColorFilterStyleProps = {
     /**
      * Applies a color-filter to the element.
@@ -1597,12 +1619,12 @@ declare const InternalShadowRoundButton: <C extends React__default.ElementType =
     disabledTextColor: OakUiRoleToken;
     defaultIconBackground: OakUiRoleToken;
     hoverIconBackground: OakUiRoleToken;
-    hoverIconColor?: "transparent" | "text-primary" | "text-subdued" | "text-error" | "text-disabled" | "text-link-active" | "text-link-hover" | "text-link-visited" | "text-link-pressed" | "text-inverted" | "text-success" | "text-promo" | "bg-primary" | "bg-inverted" | "bg-neutral" | "bg-neutral-stronger" | "bg-btn-primary" | "bg-btn-primary-hover" | "bg-btn-primary-disabled" | "bg-btn-secondary" | "bg-btn-secondary-hover" | "bg-btn-secondary-disabled" | "bg-decorative1-main" | "bg-decorative1-subdued" | "bg-decorative1-very-subdued" | "bg-decorative2-main" | "bg-decorative2-subdued" | "bg-decorative2-very-subdued" | "bg-decorative3-main" | "bg-decorative3-subdued" | "bg-decorative3-very-subdued" | "bg-decorative4-main" | "bg-decorative4-subdued" | "bg-decorative4-very-subdued" | "bg-decorative5-main" | "bg-decorative5-subdued" | "bg-decorative5-very-subdued" | "bg-decorative6-main" | "bg-decorative6-subdued" | "bg-decorative6-very-subdued" | "bg-interactive-element1" | "bg-interactive-element2" | "bg-correct" | "bg-incorrect" | "bg-success" | "bg-error" | "icon-inverted" | "icon-disabled" | "icon-brand" | "icon-success" | "icon-error" | "icon-warning" | "icon-primary" | "icon-subdued" | "icon-link-active" | "icon-link-hover" | "icon-link-pressed" | "icon-link-visited" | "icon-decorative1" | "icon-decorative2" | "icon-decorative3" | "icon-decorative4" | "icon-decorative5" | "icon-decorative6" | "icon-promo" | "border-primary" | "border-inverted" | "border-neutral" | "border-neutral-lighter" | "border-neutral-stronger" | "border-brand" | "border-success" | "border-error" | "border-warning" | "border-decorative1" | "border-decorative1-stronger" | "border-decorative2" | "border-decorative2-stronger" | "border-decorative3" | "border-decorative3-stronger" | "border-decorative4" | "border-decorative4-stronger" | "border-decorative5" | "border-decorative5-stronger" | "border-decorative6" | "border-decorative6-stronger" | "blackSemiTransparent" | "code-blue" | "code-green" | "code-grey" | "code-pink" | undefined;
+    hoverIconColor?: "transparent" | "text-primary" | "text-subdued" | "text-error" | "text-disabled" | "text-link-active" | "text-link-hover" | "text-link-visited" | "text-link-pressed" | "text-inverted" | "text-success" | "text-promo" | "bg-primary" | "bg-inverted" | "bg-inverted-semi-transparent" | "bg-neutral" | "bg-neutral-stronger" | "bg-btn-primary" | "bg-btn-primary-hover" | "bg-btn-primary-disabled" | "bg-btn-secondary" | "bg-btn-secondary-hover" | "bg-btn-secondary-disabled" | "bg-decorative1-main" | "bg-decorative1-subdued" | "bg-decorative1-very-subdued" | "bg-decorative2-main" | "bg-decorative2-subdued" | "bg-decorative2-very-subdued" | "bg-decorative3-main" | "bg-decorative3-subdued" | "bg-decorative3-very-subdued" | "bg-decorative4-main" | "bg-decorative4-subdued" | "bg-decorative4-very-subdued" | "bg-decorative5-main" | "bg-decorative5-subdued" | "bg-decorative5-very-subdued" | "bg-decorative6-main" | "bg-decorative6-subdued" | "bg-decorative6-very-subdued" | "bg-interactive-element1" | "bg-interactive-element2" | "bg-correct" | "bg-incorrect" | "bg-success" | "bg-error" | "icon-inverted" | "icon-disabled" | "icon-brand" | "icon-success" | "icon-error" | "icon-warning" | "icon-primary" | "icon-subdued" | "icon-link-active" | "icon-link-hover" | "icon-link-pressed" | "icon-link-visited" | "icon-decorative1" | "icon-decorative2" | "icon-decorative3" | "icon-decorative4" | "icon-decorative5" | "icon-decorative6" | "icon-promo" | "border-primary" | "border-inverted" | "border-neutral" | "border-neutral-lighter" | "border-neutral-stronger" | "border-brand" | "border-success" | "border-error" | "border-warning" | "border-decorative1" | "border-decorative1-stronger" | "border-decorative2" | "border-decorative2-stronger" | "border-decorative3" | "border-decorative3-stronger" | "border-decorative4" | "border-decorative4-stronger" | "border-decorative5" | "border-decorative5-stronger" | "border-decorative6" | "border-decorative6-stronger" | "code-blue" | "code-green" | "code-grey" | "code-pink" | undefined;
     disabledIconBackground: OakUiRoleToken;
     defaultIconColor?: OakRoundIconProps["$colorFilter"];
     disabledIconColor?: OakRoundIconProps["$colorFilter"];
-    defaultIconBorderColor?: "transparent" | "text-primary" | "text-subdued" | "text-error" | "text-disabled" | "text-link-active" | "text-link-hover" | "text-link-visited" | "text-link-pressed" | "text-inverted" | "text-success" | "text-promo" | "bg-primary" | "bg-inverted" | "bg-neutral" | "bg-neutral-stronger" | "bg-btn-primary" | "bg-btn-primary-hover" | "bg-btn-primary-disabled" | "bg-btn-secondary" | "bg-btn-secondary-hover" | "bg-btn-secondary-disabled" | "bg-decorative1-main" | "bg-decorative1-subdued" | "bg-decorative1-very-subdued" | "bg-decorative2-main" | "bg-decorative2-subdued" | "bg-decorative2-very-subdued" | "bg-decorative3-main" | "bg-decorative3-subdued" | "bg-decorative3-very-subdued" | "bg-decorative4-main" | "bg-decorative4-subdued" | "bg-decorative4-very-subdued" | "bg-decorative5-main" | "bg-decorative5-subdued" | "bg-decorative5-very-subdued" | "bg-decorative6-main" | "bg-decorative6-subdued" | "bg-decorative6-very-subdued" | "bg-interactive-element1" | "bg-interactive-element2" | "bg-correct" | "bg-incorrect" | "bg-success" | "bg-error" | "icon-inverted" | "icon-disabled" | "icon-brand" | "icon-success" | "icon-error" | "icon-warning" | "icon-primary" | "icon-subdued" | "icon-link-active" | "icon-link-hover" | "icon-link-pressed" | "icon-link-visited" | "icon-decorative1" | "icon-decorative2" | "icon-decorative3" | "icon-decorative4" | "icon-decorative5" | "icon-decorative6" | "icon-promo" | "border-primary" | "border-inverted" | "border-neutral" | "border-neutral-lighter" | "border-neutral-stronger" | "border-brand" | "border-success" | "border-error" | "border-warning" | "border-decorative1" | "border-decorative1-stronger" | "border-decorative2" | "border-decorative2-stronger" | "border-decorative3" | "border-decorative3-stronger" | "border-decorative4" | "border-decorative4-stronger" | "border-decorative5" | "border-decorative5-stronger" | "border-decorative6" | "border-decorative6-stronger" | "blackSemiTransparent" | "code-blue" | "code-green" | "code-grey" | "code-pink" | undefined;
-    disabledIconBorderColor?: "transparent" | "text-primary" | "text-subdued" | "text-error" | "text-disabled" | "text-link-active" | "text-link-hover" | "text-link-visited" | "text-link-pressed" | "text-inverted" | "text-success" | "text-promo" | "bg-primary" | "bg-inverted" | "bg-neutral" | "bg-neutral-stronger" | "bg-btn-primary" | "bg-btn-primary-hover" | "bg-btn-primary-disabled" | "bg-btn-secondary" | "bg-btn-secondary-hover" | "bg-btn-secondary-disabled" | "bg-decorative1-main" | "bg-decorative1-subdued" | "bg-decorative1-very-subdued" | "bg-decorative2-main" | "bg-decorative2-subdued" | "bg-decorative2-very-subdued" | "bg-decorative3-main" | "bg-decorative3-subdued" | "bg-decorative3-very-subdued" | "bg-decorative4-main" | "bg-decorative4-subdued" | "bg-decorative4-very-subdued" | "bg-decorative5-main" | "bg-decorative5-subdued" | "bg-decorative5-very-subdued" | "bg-decorative6-main" | "bg-decorative6-subdued" | "bg-decorative6-very-subdued" | "bg-interactive-element1" | "bg-interactive-element2" | "bg-correct" | "bg-incorrect" | "bg-success" | "bg-error" | "icon-inverted" | "icon-disabled" | "icon-brand" | "icon-success" | "icon-error" | "icon-warning" | "icon-primary" | "icon-subdued" | "icon-link-active" | "icon-link-hover" | "icon-link-pressed" | "icon-link-visited" | "icon-decorative1" | "icon-decorative2" | "icon-decorative3" | "icon-decorative4" | "icon-decorative5" | "icon-decorative6" | "icon-promo" | "border-primary" | "border-inverted" | "border-neutral" | "border-neutral-lighter" | "border-neutral-stronger" | "border-brand" | "border-success" | "border-error" | "border-warning" | "border-decorative1" | "border-decorative1-stronger" | "border-decorative2" | "border-decorative2-stronger" | "border-decorative3" | "border-decorative3-stronger" | "border-decorative4" | "border-decorative4-stronger" | "border-decorative5" | "border-decorative5-stronger" | "border-decorative6" | "border-decorative6-stronger" | "blackSemiTransparent" | "code-blue" | "code-green" | "code-grey" | "code-pink" | undefined;
+    defaultIconBorderColor?: "transparent" | "text-primary" | "text-subdued" | "text-error" | "text-disabled" | "text-link-active" | "text-link-hover" | "text-link-visited" | "text-link-pressed" | "text-inverted" | "text-success" | "text-promo" | "bg-primary" | "bg-inverted" | "bg-inverted-semi-transparent" | "bg-neutral" | "bg-neutral-stronger" | "bg-btn-primary" | "bg-btn-primary-hover" | "bg-btn-primary-disabled" | "bg-btn-secondary" | "bg-btn-secondary-hover" | "bg-btn-secondary-disabled" | "bg-decorative1-main" | "bg-decorative1-subdued" | "bg-decorative1-very-subdued" | "bg-decorative2-main" | "bg-decorative2-subdued" | "bg-decorative2-very-subdued" | "bg-decorative3-main" | "bg-decorative3-subdued" | "bg-decorative3-very-subdued" | "bg-decorative4-main" | "bg-decorative4-subdued" | "bg-decorative4-very-subdued" | "bg-decorative5-main" | "bg-decorative5-subdued" | "bg-decorative5-very-subdued" | "bg-decorative6-main" | "bg-decorative6-subdued" | "bg-decorative6-very-subdued" | "bg-interactive-element1" | "bg-interactive-element2" | "bg-correct" | "bg-incorrect" | "bg-success" | "bg-error" | "icon-inverted" | "icon-disabled" | "icon-brand" | "icon-success" | "icon-error" | "icon-warning" | "icon-primary" | "icon-subdued" | "icon-link-active" | "icon-link-hover" | "icon-link-pressed" | "icon-link-visited" | "icon-decorative1" | "icon-decorative2" | "icon-decorative3" | "icon-decorative4" | "icon-decorative5" | "icon-decorative6" | "icon-promo" | "border-primary" | "border-inverted" | "border-neutral" | "border-neutral-lighter" | "border-neutral-stronger" | "border-brand" | "border-success" | "border-error" | "border-warning" | "border-decorative1" | "border-decorative1-stronger" | "border-decorative2" | "border-decorative2-stronger" | "border-decorative3" | "border-decorative3-stronger" | "border-decorative4" | "border-decorative4-stronger" | "border-decorative5" | "border-decorative5-stronger" | "border-decorative6" | "border-decorative6-stronger" | "code-blue" | "code-green" | "code-grey" | "code-pink" | undefined;
+    disabledIconBorderColor?: "transparent" | "text-primary" | "text-subdued" | "text-error" | "text-disabled" | "text-link-active" | "text-link-hover" | "text-link-visited" | "text-link-pressed" | "text-inverted" | "text-success" | "text-promo" | "bg-primary" | "bg-inverted" | "bg-inverted-semi-transparent" | "bg-neutral" | "bg-neutral-stronger" | "bg-btn-primary" | "bg-btn-primary-hover" | "bg-btn-primary-disabled" | "bg-btn-secondary" | "bg-btn-secondary-hover" | "bg-btn-secondary-disabled" | "bg-decorative1-main" | "bg-decorative1-subdued" | "bg-decorative1-very-subdued" | "bg-decorative2-main" | "bg-decorative2-subdued" | "bg-decorative2-very-subdued" | "bg-decorative3-main" | "bg-decorative3-subdued" | "bg-decorative3-very-subdued" | "bg-decorative4-main" | "bg-decorative4-subdued" | "bg-decorative4-very-subdued" | "bg-decorative5-main" | "bg-decorative5-subdued" | "bg-decorative5-very-subdued" | "bg-decorative6-main" | "bg-decorative6-subdued" | "bg-decorative6-very-subdued" | "bg-interactive-element1" | "bg-interactive-element2" | "bg-correct" | "bg-incorrect" | "bg-success" | "bg-error" | "icon-inverted" | "icon-disabled" | "icon-brand" | "icon-success" | "icon-error" | "icon-warning" | "icon-primary" | "icon-subdued" | "icon-link-active" | "icon-link-hover" | "icon-link-pressed" | "icon-link-visited" | "icon-decorative1" | "icon-decorative2" | "icon-decorative3" | "icon-decorative4" | "icon-decorative5" | "icon-decorative6" | "icon-promo" | "border-primary" | "border-inverted" | "border-neutral" | "border-neutral-lighter" | "border-neutral-stronger" | "border-brand" | "border-success" | "border-error" | "border-warning" | "border-decorative1" | "border-decorative1-stronger" | "border-decorative2" | "border-decorative2-stronger" | "border-decorative3" | "border-decorative3-stronger" | "border-decorative4" | "border-decorative4-stronger" | "border-decorative5" | "border-decorative5-stronger" | "border-decorative6" | "border-decorative6-stronger" | "code-blue" | "code-green" | "code-grey" | "code-pink" | undefined;
     width?: SizeStyleProps["$width"];
     maxWidth?: SizeStyleProps["$maxWidth"];
     iconBackgroundSize: SizeStyleProps["$width"];
@@ -1849,7 +1871,7 @@ declare function useCookieConsent(): {
  */
 declare const OakCookieConsentProvider: ({ children, policyConsents, onConsentChange, }: OakCookieConsentProviderProps) => React__default.JSX.Element;
 
-declare const OakInformativeModalBorderColor: React__default.Context<("transparent" | "text-primary" | "text-subdued" | "text-error" | "text-disabled" | "text-link-active" | "text-link-hover" | "text-link-visited" | "text-link-pressed" | "text-inverted" | "text-success" | "text-promo" | "bg-primary" | "bg-inverted" | "bg-neutral" | "bg-neutral-stronger" | "bg-btn-primary" | "bg-btn-primary-hover" | "bg-btn-primary-disabled" | "bg-btn-secondary" | "bg-btn-secondary-hover" | "bg-btn-secondary-disabled" | "bg-decorative1-main" | "bg-decorative1-subdued" | "bg-decorative1-very-subdued" | "bg-decorative2-main" | "bg-decorative2-subdued" | "bg-decorative2-very-subdued" | "bg-decorative3-main" | "bg-decorative3-subdued" | "bg-decorative3-very-subdued" | "bg-decorative4-main" | "bg-decorative4-subdued" | "bg-decorative4-very-subdued" | "bg-decorative5-main" | "bg-decorative5-subdued" | "bg-decorative5-very-subdued" | "bg-decorative6-main" | "bg-decorative6-subdued" | "bg-decorative6-very-subdued" | "bg-interactive-element1" | "bg-interactive-element2" | "bg-correct" | "bg-incorrect" | "bg-success" | "bg-error" | "icon-inverted" | "icon-disabled" | "icon-brand" | "icon-success" | "icon-error" | "icon-warning" | "icon-primary" | "icon-subdued" | "icon-link-active" | "icon-link-hover" | "icon-link-pressed" | "icon-link-visited" | "icon-decorative1" | "icon-decorative2" | "icon-decorative3" | "icon-decorative4" | "icon-decorative5" | "icon-decorative6" | "icon-promo" | "border-primary" | "border-inverted" | "border-neutral" | "border-neutral-lighter" | "border-neutral-stronger" | "border-brand" | "border-success" | "border-error" | "border-warning" | "border-decorative1" | "border-decorative1-stronger" | "border-decorative2" | "border-decorative2-stronger" | "border-decorative3" | "border-decorative3-stronger" | "border-decorative4" | "border-decorative4-stronger" | "border-decorative5" | "border-decorative5-stronger" | "border-decorative6" | "border-decorative6-stronger" | "blackSemiTransparent" | "code-blue" | "code-green" | "code-grey" | "code-pink" | ("transparent" | "text-primary" | "text-subdued" | "text-error" | "text-disabled" | "text-link-active" | "text-link-hover" | "text-link-visited" | "text-link-pressed" | "text-inverted" | "text-success" | "text-promo" | "bg-primary" | "bg-inverted" | "bg-neutral" | "bg-neutral-stronger" | "bg-btn-primary" | "bg-btn-primary-hover" | "bg-btn-primary-disabled" | "bg-btn-secondary" | "bg-btn-secondary-hover" | "bg-btn-secondary-disabled" | "bg-decorative1-main" | "bg-decorative1-subdued" | "bg-decorative1-very-subdued" | "bg-decorative2-main" | "bg-decorative2-subdued" | "bg-decorative2-very-subdued" | "bg-decorative3-main" | "bg-decorative3-subdued" | "bg-decorative3-very-subdued" | "bg-decorative4-main" | "bg-decorative4-subdued" | "bg-decorative4-very-subdued" | "bg-decorative5-main" | "bg-decorative5-subdued" | "bg-decorative5-very-subdued" | "bg-decorative6-main" | "bg-decorative6-subdued" | "bg-decorative6-very-subdued" | "bg-interactive-element1" | "bg-interactive-element2" | "bg-correct" | "bg-incorrect" | "bg-success" | "bg-error" | "icon-inverted" | "icon-disabled" | "icon-brand" | "icon-success" | "icon-error" | "icon-warning" | "icon-primary" | "icon-subdued" | "icon-link-active" | "icon-link-hover" | "icon-link-pressed" | "icon-link-visited" | "icon-decorative1" | "icon-decorative2" | "icon-decorative3" | "icon-decorative4" | "icon-decorative5" | "icon-decorative6" | "icon-promo" | "border-primary" | "border-inverted" | "border-neutral" | "border-neutral-lighter" | "border-neutral-stronger" | "border-brand" | "border-success" | "border-error" | "border-warning" | "border-decorative1" | "border-decorative1-stronger" | "border-decorative2" | "border-decorative2-stronger" | "border-decorative3" | "border-decorative3-stronger" | "border-decorative4" | "border-decorative4-stronger" | "border-decorative5" | "border-decorative5-stronger" | "border-decorative6" | "border-decorative6-stronger" | "blackSemiTransparent" | "code-blue" | "code-green" | "code-grey" | "code-pink" | null)[] | null) | undefined>;
+declare const OakInformativeModalBorderColor: React__default.Context<("transparent" | "text-primary" | "text-subdued" | "text-error" | "text-disabled" | "text-link-active" | "text-link-hover" | "text-link-visited" | "text-link-pressed" | "text-inverted" | "text-success" | "text-promo" | "bg-primary" | "bg-inverted" | "bg-inverted-semi-transparent" | "bg-neutral" | "bg-neutral-stronger" | "bg-btn-primary" | "bg-btn-primary-hover" | "bg-btn-primary-disabled" | "bg-btn-secondary" | "bg-btn-secondary-hover" | "bg-btn-secondary-disabled" | "bg-decorative1-main" | "bg-decorative1-subdued" | "bg-decorative1-very-subdued" | "bg-decorative2-main" | "bg-decorative2-subdued" | "bg-decorative2-very-subdued" | "bg-decorative3-main" | "bg-decorative3-subdued" | "bg-decorative3-very-subdued" | "bg-decorative4-main" | "bg-decorative4-subdued" | "bg-decorative4-very-subdued" | "bg-decorative5-main" | "bg-decorative5-subdued" | "bg-decorative5-very-subdued" | "bg-decorative6-main" | "bg-decorative6-subdued" | "bg-decorative6-very-subdued" | "bg-interactive-element1" | "bg-interactive-element2" | "bg-correct" | "bg-incorrect" | "bg-success" | "bg-error" | "icon-inverted" | "icon-disabled" | "icon-brand" | "icon-success" | "icon-error" | "icon-warning" | "icon-primary" | "icon-subdued" | "icon-link-active" | "icon-link-hover" | "icon-link-pressed" | "icon-link-visited" | "icon-decorative1" | "icon-decorative2" | "icon-decorative3" | "icon-decorative4" | "icon-decorative5" | "icon-decorative6" | "icon-promo" | "border-primary" | "border-inverted" | "border-neutral" | "border-neutral-lighter" | "border-neutral-stronger" | "border-brand" | "border-success" | "border-error" | "border-warning" | "border-decorative1" | "border-decorative1-stronger" | "border-decorative2" | "border-decorative2-stronger" | "border-decorative3" | "border-decorative3-stronger" | "border-decorative4" | "border-decorative4-stronger" | "border-decorative5" | "border-decorative5-stronger" | "border-decorative6" | "border-decorative6-stronger" | "code-blue" | "code-green" | "code-grey" | "code-pink" | ("transparent" | "text-primary" | "text-subdued" | "text-error" | "text-disabled" | "text-link-active" | "text-link-hover" | "text-link-visited" | "text-link-pressed" | "text-inverted" | "text-success" | "text-promo" | "bg-primary" | "bg-inverted" | "bg-inverted-semi-transparent" | "bg-neutral" | "bg-neutral-stronger" | "bg-btn-primary" | "bg-btn-primary-hover" | "bg-btn-primary-disabled" | "bg-btn-secondary" | "bg-btn-secondary-hover" | "bg-btn-secondary-disabled" | "bg-decorative1-main" | "bg-decorative1-subdued" | "bg-decorative1-very-subdued" | "bg-decorative2-main" | "bg-decorative2-subdued" | "bg-decorative2-very-subdued" | "bg-decorative3-main" | "bg-decorative3-subdued" | "bg-decorative3-very-subdued" | "bg-decorative4-main" | "bg-decorative4-subdued" | "bg-decorative4-very-subdued" | "bg-decorative5-main" | "bg-decorative5-subdued" | "bg-decorative5-very-subdued" | "bg-decorative6-main" | "bg-decorative6-subdued" | "bg-decorative6-very-subdued" | "bg-interactive-element1" | "bg-interactive-element2" | "bg-correct" | "bg-incorrect" | "bg-success" | "bg-error" | "icon-inverted" | "icon-disabled" | "icon-brand" | "icon-success" | "icon-error" | "icon-warning" | "icon-primary" | "icon-subdued" | "icon-link-active" | "icon-link-hover" | "icon-link-pressed" | "icon-link-visited" | "icon-decorative1" | "icon-decorative2" | "icon-decorative3" | "icon-decorative4" | "icon-decorative5" | "icon-decorative6" | "icon-promo" | "border-primary" | "border-inverted" | "border-neutral" | "border-neutral-lighter" | "border-neutral-stronger" | "border-brand" | "border-success" | "border-error" | "border-warning" | "border-decorative1" | "border-decorative1-stronger" | "border-decorative2" | "border-decorative2-stronger" | "border-decorative3" | "border-decorative3-stronger" | "border-decorative4" | "border-decorative4-stronger" | "border-decorative5" | "border-decorative5-stronger" | "border-decorative6" | "border-decorative6-stronger" | "code-blue" | "code-green" | "code-grey" | "code-pink" | null)[] | null) | undefined>;
 type OakInformativeModalCloseAction = "close_button" | undefined;
 type OakInformativeModalProps = {
     /**
@@ -2205,7 +2227,7 @@ declare const OakJauntyAngleLabel: (props: OakJauntyAngleLabelProps) => React__d
 
 type OakMultilineTextProps = {
     /**
-     * Set the textarea text on first render
+     * Set the textarea text on first render when state is controlled internally (i.e. if `value` has not been provided)
      */
     initialValue?: string;
     /**
@@ -2218,22 +2240,19 @@ type OakMultilineTextProps = {
      */
     errors?: Array<string>;
     label?: string;
-    onTextAreaChange?: (input: string) => void;
-    onTextAreaBlur?: (input: string) => void;
-} & Omit<OakTextAreaProps, "onChange" | "onBlur" | "$width" | "value">;
+} & Omit<OakTextAreaProps, "$width">;
 /**
  *
  * This component wraps OakTextArea and provides the following functionality
- * - Manages its own state
  * - Displays errors passed in as a prop
  * - Displays and updates character count on focus only
- * - Passes stored text to onTextAreaChange and onTextAreaBlur callbacks
- *
+ * - Passes stored text to onChange and onBlur callbacks
+ * - Allows state to be controlled either internally or externally
  *
  * ### Callbacks
  *
- * onTextAreaBlur
- * onTextAreaChange
+ * onBlur
+ * onChange
  * onFocus: display character count
  *
  * ### Notes
@@ -2242,7 +2261,7 @@ type OakMultilineTextProps = {
  */
 declare const OakMultilineText: React__default.ForwardRefExoticComponent<{
     /**
-     * Set the textarea text on first render
+     * Set the textarea text on first render when state is controlled internally (i.e. if `value` has not been provided)
      */
     initialValue?: string | undefined;
     /**
@@ -2255,9 +2274,7 @@ declare const OakMultilineText: React__default.ForwardRefExoticComponent<{
      */
     errors?: string[] | undefined;
     label?: string | undefined;
-    onTextAreaChange?: ((input: string) => void) | undefined;
-    onTextAreaBlur?: ((input: string) => void) | undefined;
-} & Omit<OakTextAreaProps, "$width" | "onBlur" | "onChange" | "value"> & React__default.RefAttributes<HTMLTextAreaElement>>;
+} & Omit<OakTextAreaProps, "$width"> & React__default.RefAttributes<HTMLTextAreaElement>>;
 
 type RadioButtonLabelProps = {
     $labelAlignItems?: FlexStyleProps["$alignItems"];
@@ -2319,11 +2336,11 @@ declare const OakRadioButton: React__default.ForwardRefExoticComponent<{
     /**
      * Allows the size of the radio button to be customized.
      */
-    radioOuterSize?: "spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | undefined;
+    radioOuterSize?: "spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | "spacing-1360" | undefined;
     /**
      * Allows the size of the inner "checked" circle of the radio button to be customized.
      */
-    radioInnerSize?: "spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | undefined;
+    radioInnerSize?: "spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | "spacing-1360" | undefined;
     /**
      * Allows the width of the radio button border to be customized.
      */
@@ -2331,7 +2348,7 @@ declare const OakRadioButton: React__default.ForwardRefExoticComponent<{
     /**
      * Allows the background color of the radio button to be customized.
      */
-    radioBackground?: "transparent" | "text-primary" | "text-subdued" | "text-error" | "text-disabled" | "text-link-active" | "text-link-hover" | "text-link-visited" | "text-link-pressed" | "text-inverted" | "text-success" | "text-promo" | "bg-primary" | "bg-inverted" | "bg-neutral" | "bg-neutral-stronger" | "bg-btn-primary" | "bg-btn-primary-hover" | "bg-btn-primary-disabled" | "bg-btn-secondary" | "bg-btn-secondary-hover" | "bg-btn-secondary-disabled" | "bg-decorative1-main" | "bg-decorative1-subdued" | "bg-decorative1-very-subdued" | "bg-decorative2-main" | "bg-decorative2-subdued" | "bg-decorative2-very-subdued" | "bg-decorative3-main" | "bg-decorative3-subdued" | "bg-decorative3-very-subdued" | "bg-decorative4-main" | "bg-decorative4-subdued" | "bg-decorative4-very-subdued" | "bg-decorative5-main" | "bg-decorative5-subdued" | "bg-decorative5-very-subdued" | "bg-decorative6-main" | "bg-decorative6-subdued" | "bg-decorative6-very-subdued" | "bg-interactive-element1" | "bg-interactive-element2" | "bg-correct" | "bg-incorrect" | "bg-success" | "bg-error" | "icon-inverted" | "icon-disabled" | "icon-brand" | "icon-success" | "icon-error" | "icon-warning" | "icon-primary" | "icon-subdued" | "icon-link-active" | "icon-link-hover" | "icon-link-pressed" | "icon-link-visited" | "icon-decorative1" | "icon-decorative2" | "icon-decorative3" | "icon-decorative4" | "icon-decorative5" | "icon-decorative6" | "icon-promo" | "border-primary" | "border-inverted" | "border-neutral" | "border-neutral-lighter" | "border-neutral-stronger" | "border-brand" | "border-success" | "border-error" | "border-warning" | "border-decorative1" | "border-decorative1-stronger" | "border-decorative2" | "border-decorative2-stronger" | "border-decorative3" | "border-decorative3-stronger" | "border-decorative4" | "border-decorative4-stronger" | "border-decorative5" | "border-decorative5-stronger" | "border-decorative6" | "border-decorative6-stronger" | "blackSemiTransparent" | "code-blue" | "code-green" | "code-grey" | "code-pink" | undefined;
+    radioBackground?: "transparent" | "text-primary" | "text-subdued" | "text-error" | "text-disabled" | "text-link-active" | "text-link-hover" | "text-link-visited" | "text-link-pressed" | "text-inverted" | "text-success" | "text-promo" | "bg-primary" | "bg-inverted" | "bg-inverted-semi-transparent" | "bg-neutral" | "bg-neutral-stronger" | "bg-btn-primary" | "bg-btn-primary-hover" | "bg-btn-primary-disabled" | "bg-btn-secondary" | "bg-btn-secondary-hover" | "bg-btn-secondary-disabled" | "bg-decorative1-main" | "bg-decorative1-subdued" | "bg-decorative1-very-subdued" | "bg-decorative2-main" | "bg-decorative2-subdued" | "bg-decorative2-very-subdued" | "bg-decorative3-main" | "bg-decorative3-subdued" | "bg-decorative3-very-subdued" | "bg-decorative4-main" | "bg-decorative4-subdued" | "bg-decorative4-very-subdued" | "bg-decorative5-main" | "bg-decorative5-subdued" | "bg-decorative5-very-subdued" | "bg-decorative6-main" | "bg-decorative6-subdued" | "bg-decorative6-very-subdued" | "bg-interactive-element1" | "bg-interactive-element2" | "bg-correct" | "bg-incorrect" | "bg-success" | "bg-error" | "icon-inverted" | "icon-disabled" | "icon-brand" | "icon-success" | "icon-error" | "icon-warning" | "icon-primary" | "icon-subdued" | "icon-link-active" | "icon-link-hover" | "icon-link-pressed" | "icon-link-visited" | "icon-decorative1" | "icon-decorative2" | "icon-decorative3" | "icon-decorative4" | "icon-decorative5" | "icon-decorative6" | "icon-promo" | "border-primary" | "border-inverted" | "border-neutral" | "border-neutral-lighter" | "border-neutral-stronger" | "border-brand" | "border-success" | "border-error" | "border-warning" | "border-decorative1" | "border-decorative1-stronger" | "border-decorative2" | "border-decorative2-stronger" | "border-decorative3" | "border-decorative3-stronger" | "border-decorative4" | "border-decorative4-stronger" | "border-decorative5" | "border-decorative5-stronger" | "border-decorative6" | "border-decorative6-stronger" | "code-blue" | "code-green" | "code-grey" | "code-pink" | undefined;
     /**
      * Allows the width of the radio button border to be customized when the radio button is checked.
      */
@@ -2413,9 +2430,9 @@ declare const IconUp: styled_components.StyledComponent<"div", styled_components
     $flexShrink?: ResponsiveValues<csstype.Property.FlexShrink | undefined>;
     $order?: ResponsiveValues<csstype.Property.Order | undefined>;
     $flexBasis?: ResponsiveValues<OakCombinedSpacingToken | null | undefined>;
-    $gap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | null | undefined>;
-    $columnGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | null | undefined>;
-    $rowGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | null | undefined>;
+    $gap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | "spacing-1360" | null | undefined>;
+    $columnGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | "spacing-1360" | null | undefined>;
+    $rowGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | "spacing-1360" | null | undefined>;
     focusable?: boolean | undefined;
 }, never>;
 declare const IconDown: styled_components.StyledComponent<"div", styled_components.DefaultTheme, {
@@ -2433,9 +2450,9 @@ declare const IconDown: styled_components.StyledComponent<"div", styled_componen
     $flexShrink?: ResponsiveValues<csstype.Property.FlexShrink | undefined>;
     $order?: ResponsiveValues<csstype.Property.Order | undefined>;
     $flexBasis?: ResponsiveValues<OakCombinedSpacingToken | null | undefined>;
-    $gap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | null | undefined>;
-    $columnGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | null | undefined>;
-    $rowGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | null | undefined>;
+    $gap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | "spacing-1360" | null | undefined>;
+    $columnGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | "spacing-1360" | null | undefined>;
+    $rowGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | "spacing-1360" | null | undefined>;
     focusable?: boolean | undefined;
 }, never>;
 type OakSelectProps = {
@@ -2765,9 +2782,9 @@ declare const OakFlex: styled_components.StyledComponent<"div", styled_component
     $flexShrink?: ResponsiveValues<csstype.Property.FlexShrink | undefined>;
     $order?: ResponsiveValues<csstype.Property.Order | undefined>;
     $flexBasis?: ResponsiveValues<OakCombinedSpacingToken | null | undefined>;
-    $gap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | null | undefined>;
-    $columnGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | null | undefined>;
-    $rowGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | null | undefined>;
+    $gap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | "spacing-1360" | null | undefined>;
+    $columnGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | "spacing-1360" | null | undefined>;
+    $rowGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | "spacing-1360" | null | undefined>;
     focusable?: boolean | undefined;
 }, never>;
 
@@ -2919,9 +2936,9 @@ declare const OakGridArea: styled_components.StyledComponent<"div", styled_compo
     $flexShrink?: ResponsiveValues<csstype.Property.FlexShrink | undefined>;
     $order?: ResponsiveValues<csstype.Property.Order | undefined>;
     $flexBasis?: ResponsiveValues<OakCombinedSpacingToken | null | undefined>;
-    $gap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | null | undefined>;
-    $columnGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | null | undefined>;
-    $rowGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | null | undefined>;
+    $gap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | "spacing-1360" | null | undefined>;
+    $columnGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | "spacing-1360" | null | undefined>;
+    $rowGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | "spacing-1360" | null | undefined>;
     focusable?: boolean | undefined;
 } & {
     /**
@@ -2984,11 +3001,78 @@ declare const OakMaxWidth: styled_components.StyledComponent<"div", styled_compo
     $flexShrink?: ResponsiveValues<csstype.Property.FlexShrink | undefined>;
     $order?: ResponsiveValues<csstype.Property.Order | undefined>;
     $flexBasis?: ResponsiveValues<OakCombinedSpacingToken | null | undefined>;
-    $gap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | null | undefined>;
-    $columnGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | null | undefined>;
-    $rowGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | null | undefined>;
+    $gap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | "spacing-1360" | null | undefined>;
+    $columnGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | "spacing-1360" | null | undefined>;
+    $rowGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | "spacing-1360" | null | undefined>;
     focusable?: boolean | undefined;
 }, never>;
+
+type OakAccordionProps = {
+    /**
+     * The header of the accordion
+     */
+    header: ReactNode;
+    /**
+     * The heading tag the header of the accordion is to assume
+     */
+    headerTag?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
+    /**
+     * Slot to place content after the header and outside the button
+     */
+    headerAfterSlot?: ReactNode;
+    /**
+     * Whether the accordion should be open initially
+     */
+    initialOpen?: boolean;
+    /**
+     * The content of the accordion
+     */
+    children: ReactNode;
+    /**
+     * The id of the accordion
+     */
+    id: string;
+};
+/**
+ * An accordion component that can be used to show/hide content
+ */
+declare const OakAccordion: (props: OakAccordionProps) => React__default.JSX.Element;
+
+type OakBasicAccordionProps = {
+    /**
+     * The header of the accordion
+     */
+    header: ReactNode;
+    /**
+     * Whether the accordion should be open initially
+     */
+    initialOpen?: boolean;
+    /**
+     * The content of the accordion
+     */
+    children: ReactNode;
+    /**
+     * Optional subheading to display above the fold
+     */
+    subheading?: ReactNode;
+    /**
+     * The id of the accordion
+     */
+    id: string;
+} & BorderStyleProps & FlexStyleProps;
+declare const OakBasicAccordion: ({ header, children, id, initialOpen, subheading, ...styleProps }: OakBasicAccordionProps) => React__default.JSX.Element;
+
+type OakCollapsibleContentProps = ComponentProps<typeof OakFlex> & {
+    /**
+     * Whether the content is displayed or not
+     */
+    isOpen: boolean;
+};
+/**
+ * A filled scrollable box that can be hidden with the `isOpen` prop.
+ * Useful for hiding content that is not immediately relevant
+ */
+declare const OakCollapsibleContent: ({ isOpen, children, id, ...rest }: OakCollapsibleContentProps) => React__default.JSX.Element;
 
 type OakKbdProps = {
     children: ReactNode;
@@ -3058,7 +3142,7 @@ type OakInlineBannerProps = OakFlexProps & {
     /**
      * The color filter to apply to the icon
      */
-    iconColorFilter?: OakColorFilterToken;
+    iconColorFilter?: OakUiRoleToken;
     /**
      * The optional call to action to display in the banner
      */
@@ -3084,7 +3168,7 @@ type OakInlineBannerProps = OakFlexProps & {
 type BannerTypes = {
     [key in OakInlineBannerTypes]: {
         icon: OakIconName;
-        iconColorFilter: OakColorFilterToken;
+        iconColorFilter: OakUiRoleToken;
         backgroundColour: OakUiRoleToken;
         borderColour: OakUiRoleToken;
     };
@@ -3319,6 +3403,24 @@ declare const OakFocusIndicator: styled_components.StyledComponent<"div", styled
     onClick?: React$1.MouseEventHandler | undefined;
 } & OakFocusIndicatorProps, never>;
 
+type InternalStyledSvgProps = {
+    $fill?: ResponsiveValues<OakUiRoleToken>;
+    $stroke?: ResponsiveValues<OakUiRoleToken>;
+    $strokeWidth?: ResponsiveValues<OakBorderWidthToken>;
+};
+
+type OakHandDrawnFocusUnderlineProps = {
+    FocusUnderlineColor?: InternalStyledSvgProps["$fill"];
+} & SpacingStyleProps & SizeStyleProps;
+/**
+ * A Drawn FocusUnderline svg inside a flex container
+ *
+ * use prop FocusUnderlineColor to change the color of the FocusUnderline
+ *
+ * change the sizeProps of the flex container to change the size and dimentions of the FocusUnderline
+ */
+declare const OakHandDrawnFocusUnderline: (props: OakHandDrawnFocusUnderlineProps) => React__default.JSX.Element;
+
 type OakAnchorTargetProps = PaddingStyleProps;
 /**
  *  * AnchorTarget is a component to enable in-page linking to a particular section
@@ -3332,73 +3434,6 @@ type OakAnchorTargetProps = PaddingStyleProps;
  *
  * */
 declare const OakAnchorTarget: styled_components.StyledComponent<"span", styled_components.DefaultTheme, PaddingStyleProps, never>;
-
-type OakAccordionProps = {
-    /**
-     * The header of the accordion
-     */
-    header: ReactNode;
-    /**
-     * The heading tag the header of the accordion is to assume
-     */
-    headerTag?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
-    /**
-     * Slot to place content after the header and outside the button
-     */
-    headerAfterSlot?: ReactNode;
-    /**
-     * Whether the accordion should be open initially
-     */
-    initialOpen?: boolean;
-    /**
-     * The content of the accordion
-     */
-    children: ReactNode;
-    /**
-     * The id of the accordion
-     */
-    id: string;
-};
-/**
- * An accordion component that can be used to show/hide content
- */
-declare const OakAccordion: (props: OakAccordionProps) => React__default.JSX.Element;
-
-type OakBasicAccordionProps = {
-    /**
-     * The header of the accordion
-     */
-    header: ReactNode;
-    /**
-     * Whether the accordion should be open initially
-     */
-    initialOpen?: boolean;
-    /**
-     * The content of the accordion
-     */
-    children: ReactNode;
-    /**
-     * Optional subheading to display above the fold
-     */
-    subheading?: ReactNode;
-    /**
-     * The id of the accordion
-     */
-    id: string;
-} & BorderStyleProps & FlexStyleProps;
-declare const OakBasicAccordion: ({ header, children, id, initialOpen, subheading, ...styleProps }: OakBasicAccordionProps) => React__default.JSX.Element;
-
-type OakCollapsibleContentProps = ComponentProps<typeof OakFlex> & {
-    /**
-     * Whether the content is displayed or not
-     */
-    isOpen: boolean;
-};
-/**
- * A filled scrollable box that can be hidden with the `isOpen` prop.
- * Useful for hiding content that is not immediately relevant
- */
-declare const OakCollapsibleContent: ({ isOpen, children, id, ...rest }: OakCollapsibleContentProps) => React__default.JSX.Element;
 
 type InternalLinkProps = {
     /**
@@ -3459,7 +3494,6 @@ declare const OakLink: OakLinkComponent$1;
 type OakPaginationProps = {
     currentPage: number;
     totalPages: number;
-    firstItemRef?: RefObject<HTMLAnchorElement> | null;
     nextHref?: string;
     prevHref?: string;
     paginationHref: string;
@@ -3508,6 +3542,75 @@ type OakLinkComponent = <C extends React__default.ElementType = "a">(props: Poly
  *
  */
 declare const OakSecondaryLink: OakLinkComponent;
+
+type OakTabsProps<T extends string> = {
+    sizeVariant: ResponsiveValues<"default" | "compact">;
+    colorVariant: "black" | "white";
+    tabs: Array<T>;
+    activeTab: T;
+    onTabClick: (tab: T) => void;
+};
+declare function OakTabs<T extends string>(props: Readonly<OakTabsProps<T>>): React__default.JSX.Element;
+
+type OakCardProps = {
+    /**
+     * The heading text of the card.
+     */
+    heading: string;
+    /**
+     * The URL that the card links to.
+     */
+    href: string;
+    /**
+     * The orientation of the card.
+     */
+    cardOrientation?: "row" | "column";
+    /**
+     * The width of the card.
+     */
+    cardWidth?: OakCombinedSpacingToken;
+    /**
+     * The source URL for the image to be displayed in the card.
+     */
+    imageSrc?: string;
+    /**
+     * The alternative text for the image, used for accessibility.
+     */
+    imageAlt?: string;
+    /**
+     * The aspect ratio of the image.
+     */
+    aspectRatio?: "1/1" | "4/3";
+    /**
+     * The subcopy text of the card.
+     */
+    subCopy?: string;
+    /**
+     * The name of a tag to be displayed in the card.
+     */
+    tagName?: string;
+    /**
+     * The background colour of the tag.
+     */
+    tagBackground?: OakUiRoleToken;
+    /**
+     * The text to be displayed next to the link icon in the card.
+     */
+    linkText?: string;
+    /**
+     * The name of the icon to be displayed next to the link text in the card.
+     */
+    linkIconName?: OakIconName;
+};
+/**
+ * A highly customisable card component that displays a heading and takes a href at minimum.
+ *
+ * It can also display an image, subcopy, a tag, and a link with an icon.
+ *
+ * The card can be oriented in a row or column layout and its width can be adjusted using spacing tokens.
+ * The image aspect ratio can be set to either 1:1 or 4:3.
+ */
+declare const OakCard: ({ heading, href, cardOrientation, cardWidth, imageSrc, imageAlt, aspectRatio, subCopy, tagName, tagBackground, linkText, linkIconName, }: OakCardProps) => React__default.JSX.Element;
 
 type OakDownloadsAccordionProps = {
     /**
@@ -4368,12 +4471,6 @@ type InternalCardWithBackgroundElementProps = InternalCardProps & {
     backgroundElement: ReactElement;
 };
 
-type InternalStyledSvgProps = {
-    $fill?: ResponsiveValues<OakUiRoleToken>;
-    $stroke?: ResponsiveValues<OakUiRoleToken>;
-    $strokeWidth?: ResponsiveValues<OakBorderWidthToken>;
-};
-
 type OakCardWithHandDrawnBorderProps = Omit<InternalCardWithBackgroundElementProps, "backgroundElement"> & {
     fill?: InternalStyledSvgProps["$fill"];
     stroke?: InternalStyledSvgProps["$stroke"];
@@ -4637,18 +4734,6 @@ type OakHandDrawnBoxWithIconProps = Omit<OakHandDrawnCardProps, "children"> & {
  */
 declare const OakHandDrawnCardWithIcon: ({ iconName, iconColor, iconWidth, iconHeight, alt, $width, $height, $alignItems, $justifyContent, ...props }: OakHandDrawnBoxWithIconProps) => React__default.JSX.Element;
 
-type OakHandDrawnFocusUnderlineProps = {
-    FocusUnderlineColor?: InternalStyledSvgProps["$fill"];
-} & SpacingStyleProps & SizeStyleProps;
-/**
- * A Drawn FocusUnderline svg inside a flex container
- *
- * use prop FocusUnderlineColor to change the color of the FocusUnderline
- *
- * change the sizeProps of the flex container to change the size and dimentions of the FocusUnderline
- */
-declare const OakHandDrawnFocusUnderline: (props: OakHandDrawnFocusUnderlineProps) => React__default.JSX.Element;
-
 type OakHandDrawnHRProps = {
     hrColor?: InternalStyledSvgProps["$fill"];
 } & SpacingStyleProps & SizeStyleProps;
@@ -4732,6 +4817,8 @@ type OakLinkCardProps = {
     hasAnimation?: boolean;
 };
 /**
+ * @deprecated Use `<OakCard />` instead
+ *
  * A card component that displays an icon, text content, and an external link.
  *
  * ## Props
@@ -4920,7 +5007,6 @@ type OakHeaderHeroProps = {
     subHeadingText: string;
     breadcrumbs: ReactElement;
     cmsImage?: ReactElement;
-    children?: ReactNode;
 };
 /**
  *
@@ -5250,9 +5336,9 @@ declare const OakLI: styled_components.StyledComponent<"li", styled_components.D
     $flexShrink?: ResponsiveValues<csstype.Property.FlexShrink | undefined>;
     $order?: ResponsiveValues<csstype.Property.Order | undefined>;
     $flexBasis?: ResponsiveValues<OakCombinedSpacingToken | null | undefined>;
-    $gap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | null | undefined>;
-    $columnGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | null | undefined>;
-    $rowGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | null | undefined>;
+    $gap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | "spacing-1360" | null | undefined>;
+    $columnGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | "spacing-1360" | null | undefined>;
+    $rowGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | "spacing-1360" | null | undefined>;
     focusable?: boolean | undefined;
 } & {
     children?: React$1.ReactNode;
@@ -5321,9 +5407,9 @@ declare const OakUL: styled_components.StyledComponent<"ul", styled_components.D
     $flexShrink?: ResponsiveValues<csstype.Property.FlexShrink | undefined>;
     $order?: ResponsiveValues<csstype.Property.Order | undefined>;
     $flexBasis?: ResponsiveValues<OakCombinedSpacingToken | null | undefined>;
-    $gap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | null | undefined>;
-    $columnGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | null | undefined>;
-    $rowGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | null | undefined>;
+    $gap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | "spacing-1360" | null | undefined>;
+    $columnGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | "spacing-1360" | null | undefined>;
+    $rowGap?: ResponsiveValues<"spacing-0" | "spacing-4" | "spacing-8" | "spacing-12" | "spacing-16" | "spacing-20" | "spacing-24" | "spacing-32" | "spacing-40" | "spacing-48" | "spacing-56" | "spacing-64" | "spacing-72" | "spacing-80" | "spacing-2" | "spacing-92" | "spacing-100" | "spacing-120" | "spacing-160" | "spacing-180" | "spacing-240" | "spacing-360" | "spacing-480" | "spacing-640" | "spacing-960" | "spacing-1280" | "spacing-1360" | null | undefined>;
     focusable?: boolean | undefined;
 } & {
     $reset?: boolean | undefined;
@@ -5363,4 +5449,4 @@ declare function installMockResizeObserver(): void;
 
 declare const rgbToHex: (rgb: string) => string;
 
-export { type BannerTypes, type Consent, HeadingTagComponent, IconDown, IconUp, type InternalQuizResultItemProps, type LessonSectionName$1 as LessonSectionName, type MenuItemProps, OakAccordion, type OakAccordionProps, type OakAllSpacingToken, OakAnchorTarget, type OakAnchorTargetProps, OakAspectRatio, type OakAspectRatioProps, OakBackLink, type OakBackLinkProps, OakBasicAccordion, type OakBasicAccordionProps, type OakBorderRadiusToken, type OakBorderWidthToken, OakBox, type OakBoxProps, OakBulletList, type OakBulletListProps, OakButtonAsRadioGroup, OakButtonWithDropdown, type OakButtonWithDropdownProps, OakCATQuestion, type OakCATQuestionProps, OakCaptionCard, type OakCaptionCardProps, OakCaptionSearch, type OakCaptionSearchProps, OakCardHeader, type OakCardHeaderprops, OakCardWithHandDrawnBorder, type OakCardWithHandDrawnBorderProps, OakCarousel, type OakCarouselProps, OakCheckBox, type OakCheckBoxProps, OakCloseButton, type OakCloseButtonProps, OakCloudinaryConfigProvider, OakCloudinaryImage, type OakCloudinaryImageProps, OakCodeRenderer, type OakCodeRendererProps, OakCollapsibleContent, type OakCollapsibleContentProps, type OakColorFilterToken, type OakColorToken, type OakCombinedSpacingToken, OakCookieBanner, type OakCookieBannerProps, OakCookieConsent, OakCookieConsentContext, type OakCookieConsentProps, OakCookieConsentProvider, OakCookieSettingsModal, type OakCookieSettingsModalProps, OakCopyLinkButton, OakDownloadCard, type OakDownloadCardProps, OakDownloadsAccordion, type OakDownloadsAccordionProps, OakDownloadsJourneyChildSubjectTierSelector, type OakDownloadsJourneyChildSubjectTierSelectorProps, OakDragAndDropInstructions, OakDraggable, OakDraggableFeedback, type OakDropShadowToken, OakDroppable, type OakDroppableProps, OakFieldError, type OakFieldErrorProps, OakFieldset, type OakFieldsetProps, OakFilterDrawer, OakFlex, type OakFlexProps, OakFocusIndicator, type OakFocusIndicatorProps, type OakFontSizeToken, type OakFontToken, OakForm, OakFormInput, type OakFormInputProps, OakFormInputWithLabels, type OakFormInputWithLabelsProps, type OakFormProps, OakGlobalStyle, OakGrid, OakGridArea, type OakGridAreaProps, type OakGridProps, type OakHandDrawnBoxWithIconProps, OakHandDrawnCard, type OakHandDrawnCardProps, OakHandDrawnCardWithIcon, OakHandDrawnFocusUnderline, type OakHandDrawnFocusUnderlineProps, OakHandDrawnHR, type OakHandDrawnHRProps, OakHeaderHero, type OakHeaderHeroProps, OakHeading, type OakHeadingProps, type OakHeadingTag, OakHintButton, type OakHintButtonProps, OakHomepageTabButton, type OakHomepageTabButtonProps, OakHoverLink, type OakHoverLinkProps, OakIcon, type OakIconName, type OakIconProps, OakImage, type OakImageProps, OakInfo, OakInfoButton, type OakInfoButtonProps, type OakInfoCardProps, type OakInfoProps, OakInformativeModal, OakInformativeModalBody, type OakInformativeModalBodyProps, OakInformativeModalBorderColor, type OakInformativeModalCloseAction, OakInformativeModalFooter, type OakInformativeModalFooterProps, type OakInformativeModalProps, OakInlineBanner, type OakInlineBannerProps, type OakInlineBannerTypes, type OakInlineBannerVariantProps, type OakInlineBannerVariants, OakInlineRegistrationBanner, type OakInlineRegistrationBannerProps, type OakInnerPaddingToken, OakJauntyAngleLabel, type OakJauntyAngleLabelProps, OakKbd, type OakKbdProps, OakLI, type OakLIProps, OakLabel, type OakLabelProps, OakLeftAlignedButton, type OakLeftAlignedButtonProps, OakLessonBottomNav, type OakLessonBottomNavProps, OakLessonInfoCard, OakLessonLayout, type OakLessonLayoutProps, OakLessonNavItem, type OakLessonNavItemProps, OakLessonReviewIntroVideo, type OakLessonReviewIntroVideoProps, OakLessonReviewItem, type OakLessonReviewItemProps, OakLessonReviewQuiz, OakLessonTopNav, type OakLessonTopNavProps, OakLessonVideoTranscript, OakLink, OakLinkCard, type OakLinkCardProps, type OakLinkProps, OakListItem, type OakListItemProps, OakLoadingSpinner, type OakLoadingSpinnerProps, OakMaxWidth, OakMediaClip, OakMediaClipList, OakMediaClipListAccordion, type OakMediaClipListProps, type OakMediaClipProps, OakMediaClipStackListItem, type OakMediaClipStackListItemProps, OakModalCenter, OakModalCenterBody, type OakModalCenterBodyProps, type OakModalCenterProps, OakMultilineText, type OakMultilineTextProps, OakOL, type OakOLProps, type OakOpacityToken, OakOptGroup, type OakOptGroupProps, OakOption, type OakOptionProps, OakOutlineAccordion, type OakOutlineAccordionProps, OakP, type OakPProps, OakPagination, type OakPaginationProps, OakPrimaryButton, type OakPrimaryButtonProps, OakPrimaryInvertedButton, type OakPrimaryInvertedButtonProps, OakPrimaryNav, OakPrimaryNavItem, type OakPrimaryNavItemProps, type OakPrimaryNavProps, OakPromoTag, type OakPromoTagProps, type OakPupilContentGuidance, OakPupilJourneyContentGuidance, type OakPupilJourneyContentGuidanceProps, OakPupilJourneyHeader, type OakPupilJourneyHeaderProps, OakPupilJourneyLayout, type OakPupilJourneyLayoutProps, OakPupilJourneyList, OakPupilJourneyListCounter, OakPupilJourneyListItem, OakPupilJourneyListItemSubheading, type OakPupilJourneyListItemSubheadingProps, type OakPupilJourneyListProps, OakPupilJourneyOptionalityButton, OakPupilJourneyOptionalityItem, type OakPupilJourneyOptionalityItemProps, OakPupilJourneyProgrammeOptions, type OakPupilJourneyProgrammeOptionsProps, OakPupilJourneyUnitsFilter, type OakPupilJourneyUnitsFilterProps, OakPupilJourneyYearButton, type OakPupilJourneyYearButtonProps, OakQuizCheckBox, type OakQuizCheckBoxProps, OakQuizCounter, type OakQuizCounterProps, OakQuizFeedback, type OakQuizFeedbackProps, OakQuizHint, type OakQuizHintProps, OakQuizMatch, OakQuizMatchItemId, type OakQuizMatchProps, OakQuizOrder, type OakQuizOrderProps, OakQuizOrderitemId, OakQuizPrintableHeader, type OakQuizPrintableHeaderProps, OakQuizPrintableSubHeader, type OakQuizPrintableSubHeaderProps, OakQuizRadioButton, type OakQuizRadioButtonProps, OakQuizResultItem, OakQuizTextInput, OakQuote, type OakQuoteProps, OakRadioAsButton, type OakRadioAsButtonProps, OakRadioButton, OakRadioGroup, type OakRadioGroupProps, OakRadioTile, type OakRadioTileProps, OakRoundIcon, type OakRoundIconProps, OakSaveButton, type OakSaveButtonProps, OakSaveCount, type OakSaveCountProps, OakScaleImageButton, type OakScaleImageButtonProps, OakScreenReader, OakSearchFilterCheckBox, type OakSearchFilterCheckBoxProps, OakSecondaryButton, OakSecondaryButtonAsRadio, type OakSecondaryButtonAsRadioProps, type OakSecondaryButtonProps, OakSecondaryButtonWithDropdown, type OakSecondaryButtonWithDropdownProps, OakSecondaryLink, type OakSecondaryLinkProps, OakSelect, type OakSelectProps, OakSideMenuNav, OakSideMenuNavLink, type OakSideMenuNavLinkProps, type OakSideMenuNavProps, OakSignLanguageButton, OakSmallPrimaryButton, type OakSmallPrimaryButtonProps, OakSmallPrimaryInvertedButton, type OakSmallPrimaryInvertedButtonProps, OakSmallSecondaryButton, type OakSmallSecondaryButtonProps, OakSmallSecondaryButtonWithDropdown, type OakSmallSecondaryButtonWithDropdownProps, OakSmallSecondaryToggleButton, type OakSmallSecondaryToggleButtonProps, OakSmallTertiaryInvertedButton, type OakSmallTertiaryInvertedButtonProps, type OakSolidBorderAccordionProps, type OakSpaceBetweenToken, OakSpan, type OakSpanProps, OakStaticMessageCard, OakSubjectIcon, OakSubjectIconButton, type OakSubjectIconButtonProps, type OakSubjectIconProps, OakSvg, type OakSvgNames, type OakSvgProps, OakTagFunctional, type OakTagFunctionalProps, OakTeacherNotesInline, type OakTeacherNotesInlineProps, OakTeacherNotesModal, type OakTeacherNotesModalProps, OakTertiaryButton, OakTertiaryInvertedButton, OakTertiaryOLNav, type OakTertiaryOLNavProps, OakTextArea, type OakTextAreaProps, OakTextInput, type OakTextInputProps, type OakTheme, OakThemeProvider, type OakThemeProviderProps, OakTimer, type OakTimerProps, OakToast, type OakToastProps, OakTooltip, type OakTooltipProps, type OakTransitionToken, OakTypography, type OakTypographyProps, OakUL, type OakULProps, type OakUiRoleToken, OakUnitListItem, type OakUnitListItemProps, OakUnitListOptionalityItem, OakUnitListOptionalityItemCard, type OakUnitListOptionalityItemCardProps, type OakUnitListOptionalityItemProps, OakUnitsContainer, type OakUnitsContainerProps, OakUnitsHeader, type OakUnitsHeaderProps, OakVideoTranscript, type OakZIndexToken, type Phase$1 as Phase, type PolicyConsent, type PupilJourneySectionName, RadioContext, ReviewItemContainer, ReviewItemTitleSection, StyledMediaClipImage, type Subject, type Tier, type TileItem, announcements, bannerTypes, bannerVariants, formatTimeCode, generateOakIconURL, getBackgroundUrlForSection, getDefaultContextState, installMockIntersectionObserver, installMockResizeObserver, isTileItem, isValidIconName, lessonSectionNames, oakAllSpacingTokens, oakBorderRadiusTokens, oakBorderWidthTokens, oakBoxCss, oakColorTokens, oakDarkTheme, oakDefaultTheme, oakDropShadowTokens, oakFlexCss, oakFontSizeTokens, oakFontTokens, oakHeadingTags, oakIconNames, oakInnerPaddingTokens, oakLIDefaults, oakOpacityTokens, oakPlaceholder, oakSpaceBetweenTokens, oakTransitionTokens, oakUiRoleTokens, oakZIndexTokens, parseBorder, parseColor, parseColorFilter, parseDropShadow, parseFontSize, parseFontWeight, parseLetterSpacing, parseLineHeight, parseOpacity, parseSpacing, parseTransitions, parseZIndex, placeholderStyles, removedGuidanceDuplicates, rgbToHex, useCookieConsent };
+export { type BannerTypes, type Consent, HeadingTagComponent, IconDown, IconUp, type InternalQuizResultItemProps, type LessonSectionName$1 as LessonSectionName, type MenuItemProps, OakAccordion, type OakAccordionProps, type OakAllSpacingToken, OakAnchorTarget, type OakAnchorTargetProps, OakAspectRatio, type OakAspectRatioProps, OakBackLink, type OakBackLinkProps, OakBasicAccordion, type OakBasicAccordionProps, type OakBorderRadiusToken, type OakBorderWidthToken, OakBox, type OakBoxProps, OakBulletList, type OakBulletListProps, OakButtonAsRadioGroup, OakButtonWithDropdown, type OakButtonWithDropdownProps, OakCATQuestion, type OakCATQuestionProps, OakCaptionCard, type OakCaptionCardProps, OakCaptionSearch, type OakCaptionSearchProps, OakCard, OakCardHeader, type OakCardHeaderprops, type OakCardProps, OakCardWithHandDrawnBorder, type OakCardWithHandDrawnBorderProps, OakCarousel, type OakCarouselProps, OakCheckBox, type OakCheckBoxProps, OakCloseButton, type OakCloseButtonProps, OakCloudinaryConfigProvider, OakCloudinaryImage, type OakCloudinaryImageProps, OakCodeRenderer, type OakCodeRendererProps, OakCollapsibleContent, type OakCollapsibleContentProps, type OakColorFilterToken, type OakColorToken, type OakCombinedSpacingToken, OakCookieBanner, type OakCookieBannerProps, OakCookieConsent, OakCookieConsentContext, type OakCookieConsentProps, OakCookieConsentProvider, OakCookieSettingsModal, type OakCookieSettingsModalProps, OakCopyLinkButton, OakDownloadCard, type OakDownloadCardProps, OakDownloadsAccordion, type OakDownloadsAccordionProps, OakDownloadsJourneyChildSubjectTierSelector, type OakDownloadsJourneyChildSubjectTierSelectorProps, OakDragAndDropInstructions, OakDraggable, OakDraggableFeedback, type OakDropShadowToken, OakDroppable, type OakDroppableProps, OakFieldError, type OakFieldErrorProps, OakFieldset, type OakFieldsetProps, OakFilterDrawer, OakFlex, type OakFlexProps, OakFocusIndicator, type OakFocusIndicatorProps, type OakFontSizeToken, type OakFontToken, OakForm, OakFormInput, type OakFormInputProps, OakFormInputWithLabels, type OakFormInputWithLabelsProps, type OakFormProps, OakGlobalStyle, OakGrid, OakGridArea, type OakGridAreaProps, type OakGridProps, type OakHandDrawnBoxWithIconProps, OakHandDrawnCard, type OakHandDrawnCardProps, OakHandDrawnCardWithIcon, OakHandDrawnFocusUnderline, type OakHandDrawnFocusUnderlineProps, OakHandDrawnHR, type OakHandDrawnHRProps, OakHeaderHero, type OakHeaderHeroProps, OakHeading, type OakHeadingProps, type OakHeadingTag, OakHintButton, type OakHintButtonProps, OakHomepageTabButton, type OakHomepageTabButtonProps, OakHoverLink, type OakHoverLinkProps, OakIcon, type OakIconName, type OakIconProps, OakImage, type OakImageProps, OakInfo, OakInfoButton, type OakInfoButtonProps, type OakInfoCardProps, type OakInfoProps, OakInformativeModal, OakInformativeModalBody, type OakInformativeModalBodyProps, OakInformativeModalBorderColor, type OakInformativeModalCloseAction, OakInformativeModalFooter, type OakInformativeModalFooterProps, type OakInformativeModalProps, OakInlineBanner, type OakInlineBannerProps, type OakInlineBannerTypes, type OakInlineBannerVariantProps, type OakInlineBannerVariants, OakInlineRegistrationBanner, type OakInlineRegistrationBannerProps, type OakInnerPaddingToken, OakJauntyAngleLabel, type OakJauntyAngleLabelProps, OakKbd, type OakKbdProps, OakLI, type OakLIProps, OakLabel, type OakLabelProps, OakLeftAlignedButton, type OakLeftAlignedButtonProps, OakLessonBottomNav, type OakLessonBottomNavProps, OakLessonInfoCard, OakLessonLayout, type OakLessonLayoutProps, OakLessonNavItem, type OakLessonNavItemProps, OakLessonReviewIntroVideo, type OakLessonReviewIntroVideoProps, OakLessonReviewItem, type OakLessonReviewItemProps, OakLessonReviewQuiz, OakLessonTopNav, type OakLessonTopNavProps, OakLessonVideoTranscript, OakLink, OakLinkCard, type OakLinkCardProps, type OakLinkProps, OakListItem, type OakListItemProps, OakLoadingSpinner, type OakLoadingSpinnerProps, OakMaxWidth, OakMediaClip, OakMediaClipList, OakMediaClipListAccordion, type OakMediaClipListProps, type OakMediaClipProps, OakMediaClipStackListItem, type OakMediaClipStackListItemProps, OakModalCenter, OakModalCenterBody, type OakModalCenterBodyProps, type OakModalCenterProps, OakMultilineText, type OakMultilineTextProps, OakOL, type OakOLProps, type OakOpacityToken, OakOptGroup, type OakOptGroupProps, OakOption, type OakOptionProps, OakOutlineAccordion, type OakOutlineAccordionProps, OakP, type OakPProps, OakPagination, type OakPaginationProps, OakPrimaryButton, type OakPrimaryButtonProps, OakPrimaryInvertedButton, type OakPrimaryInvertedButtonProps, OakPrimaryNav, OakPrimaryNavItem, type OakPrimaryNavItemProps, type OakPrimaryNavProps, OakPromoTag, type OakPromoTagProps, type OakPupilContentGuidance, OakPupilJourneyContentGuidance, type OakPupilJourneyContentGuidanceProps, OakPupilJourneyHeader, type OakPupilJourneyHeaderProps, OakPupilJourneyLayout, type OakPupilJourneyLayoutProps, OakPupilJourneyList, OakPupilJourneyListCounter, OakPupilJourneyListItem, OakPupilJourneyListItemSubheading, type OakPupilJourneyListItemSubheadingProps, type OakPupilJourneyListProps, OakPupilJourneyOptionalityButton, OakPupilJourneyOptionalityItem, type OakPupilJourneyOptionalityItemProps, OakPupilJourneyProgrammeOptions, type OakPupilJourneyProgrammeOptionsProps, OakPupilJourneyUnitsFilter, type OakPupilJourneyUnitsFilterProps, OakPupilJourneyYearButton, type OakPupilJourneyYearButtonProps, OakQuizCheckBox, type OakQuizCheckBoxProps, OakQuizCounter, type OakQuizCounterProps, OakQuizFeedback, type OakQuizFeedbackProps, OakQuizHint, type OakQuizHintProps, OakQuizMatch, OakQuizMatchItemId, type OakQuizMatchProps, OakQuizOrder, type OakQuizOrderProps, OakQuizOrderitemId, OakQuizPrintableHeader, type OakQuizPrintableHeaderProps, OakQuizPrintableSubHeader, type OakQuizPrintableSubHeaderProps, OakQuizRadioButton, type OakQuizRadioButtonProps, OakQuizResultItem, OakQuizTextInput, OakQuote, type OakQuoteProps, OakRadioAsButton, type OakRadioAsButtonProps, OakRadioButton, OakRadioGroup, type OakRadioGroupProps, OakRadioTile, type OakRadioTileProps, OakRoundIcon, type OakRoundIconProps, OakSaveButton, type OakSaveButtonProps, OakSaveCount, type OakSaveCountProps, OakScaleImageButton, type OakScaleImageButtonProps, OakScreenReader, OakSearchFilterCheckBox, type OakSearchFilterCheckBoxProps, OakSecondaryButton, OakSecondaryButtonAsRadio, type OakSecondaryButtonAsRadioProps, type OakSecondaryButtonProps, OakSecondaryButtonWithDropdown, type OakSecondaryButtonWithDropdownProps, OakSecondaryLink, type OakSecondaryLinkProps, OakSelect, type OakSelectProps, OakSideMenuNav, OakSideMenuNavLink, type OakSideMenuNavLinkProps, type OakSideMenuNavProps, OakSignLanguageButton, OakSmallPrimaryButton, type OakSmallPrimaryButtonProps, OakSmallPrimaryInvertedButton, type OakSmallPrimaryInvertedButtonProps, OakSmallSecondaryButton, type OakSmallSecondaryButtonProps, OakSmallSecondaryButtonWithDropdown, type OakSmallSecondaryButtonWithDropdownProps, OakSmallSecondaryToggleButton, type OakSmallSecondaryToggleButtonProps, OakSmallTertiaryInvertedButton, type OakSmallTertiaryInvertedButtonProps, type OakSolidBorderAccordionProps, type OakSpaceBetweenToken, OakSpan, type OakSpanProps, OakStaticMessageCard, OakSubjectIcon, OakSubjectIconButton, type OakSubjectIconButtonProps, type OakSubjectIconProps, OakSvg, type OakSvgNames, type OakSvgProps, OakTabs, type OakTabsProps, OakTagFunctional, type OakTagFunctionalProps, OakTeacherNotesInline, type OakTeacherNotesInlineProps, OakTeacherNotesModal, type OakTeacherNotesModalProps, OakTertiaryButton, OakTertiaryInvertedButton, OakTertiaryOLNav, type OakTertiaryOLNavProps, OakTextArea, type OakTextAreaProps, OakTextInput, type OakTextInputProps, type OakTheme, OakThemeProvider, type OakThemeProviderProps, OakTimer, type OakTimerProps, OakToast, type OakToastProps, OakTooltip, type OakTooltipProps, type OakTransitionToken, OakTypography, type OakTypographyProps, OakUL, type OakULProps, type OakUiRoleToken, OakUnitListItem, type OakUnitListItemProps, OakUnitListOptionalityItem, OakUnitListOptionalityItemCard, type OakUnitListOptionalityItemCardProps, type OakUnitListOptionalityItemProps, OakUnitsContainer, type OakUnitsContainerProps, OakUnitsHeader, type OakUnitsHeaderProps, OakVideoTranscript, type OakZIndexToken, type Phase$1 as Phase, type PolicyConsent, type PupilJourneySectionName, RadioContext, ReviewItemContainer, ReviewItemTitleSection, StyledMediaClipImage, type Subject, type Tier, type TileItem, announcements, bannerTypes, bannerVariants, formatTimeCode, generateOakIconURL, getBackgroundUrlForSection, getDefaultContextState, installMockIntersectionObserver, installMockResizeObserver, isTileItem, isValidIconName, lessonSectionNames, oakAllSpacingTokens, oakBorderRadiusTokens, oakBorderWidthTokens, oakBoxCss, oakColorTokens, oakDarkTheme, oakDefaultTheme, oakDropShadowTokens, oakFlexCss, oakFontSizeTokens, oakFontTokens, oakHeadingTags, oakIconNames, oakInnerPaddingTokens, oakLIDefaults, oakOpacityTokens, oakPlaceholder, oakSpaceBetweenTokens, oakTransitionTokens, oakUiRoleTokens, oakZIndexTokens, parseBorder, parseColor, parseColorFilter, parseDropShadow, parseFontSize, parseFontWeight, parseLetterSpacing, parseLineHeight, parseOpacity, parseSpacing, parseTransitions, parseZIndex, placeholderStyles, removedGuidanceDuplicates, rgbToHex, useCookieConsent };
